@@ -10,7 +10,7 @@ build:
   image_template: gelfgen-0.3
 deploy:
   context: sranjan1995/DEV
-  replicas: 5
+  replicas: 8
 properties:
   revision : 4
   GELF_GRAYLOG_HOST : graylog-5-2.sranjan1995-dev
