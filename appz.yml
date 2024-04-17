@@ -10,10 +10,10 @@ build:
   image_template: gelfgen-0.3
 deploy:
   context: sranjan1995/DEV
-  replicas: 1
+  replicas: 8
 properties:
   revision : 5
   GELF_GRAYLOG_HOST : graylog-5-2.sranjan1995-dev
   GELF_GRAYLOG_PORT : 12201
   GELF_GEN_PERIOD : 3600
-  GELF_GEN_RATE : 100
+  GELF_GEN_RATE : 8000
