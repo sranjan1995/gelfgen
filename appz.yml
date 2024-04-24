@@ -12,7 +12,7 @@ deploy:
   context: sranjan1995/DEV
   replicas: 5
 properties:
-  revision : 13
+  revision : 14
   TZ : Asia/Kolkata
   GELF_GRAYLOG_HOST : graylog-5-2.sranjan1995-dev
   GELF_GRAYLOG_PORT : 12201
