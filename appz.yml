@@ -10,7 +10,7 @@ build:
   image_template: gelfgen-0.3
 deploy:
   context: sranjan1995/DEV
-  replicas: 1
+  replicas: 3
 properties:
   revision : 18
   TZ : Asia/Kolkata
