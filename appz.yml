@@ -12,9 +12,9 @@ deploy:
   context: sranjan1995/DEV
   replicas: 1
 properties:
-  revision : 18
+  revision : 19
   TZ : Asia/Kolkata
   GELF_GRAYLOG_HOST : graylog-5-2.sranjan1995-dev
   GELF_GRAYLOG_PORT : 12201
   GELF_GEN_PERIOD : 3600
-  GELF_GEN_RATE : 200
+  GELF_GEN_RATE : 300
